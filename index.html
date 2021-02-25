@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Quote Generator</title>
+    <link rel="shortcut icon" href="./img/quotation.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital@1&display=swap" rel="stylesheet">
+    <script src="https://code.responsivevoice.org/responsivevoice.js"></script>
+</head>
+
+<body>
+
+    <h1>Quote Generator</h1>
+    <hr>
+    <div class="container">
+        <div class="box">
+            <textarea id="quote">Here is your daily quote...</textarea>
+            <small id="author"></small>
+            <input id="listen" type="button" onclick="textSpeak()" value="L i s t e n">
+        </div>
+        <div class="buttons">
+            <button id="btn">New Quote</button>
+            <button id="twitter">
+            <a href="" id="twitterLink"> T w e e t !</a>
+            </button>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

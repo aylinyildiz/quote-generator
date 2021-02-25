@@ -1,0 +1,99 @@
+html {
+    opacity: 0.95;
+    filter: blue(2px);
+}
+
+body {
+    color: white;
+    background-image: url('https://images.pexels.com/photos/1907785/pexels-photo-1907785.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+}
+
+.container {
+    position: absolute;
+    left: 30%;
+    top: 35%;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 50px;
+    margin-left: 42%;
+    margin-top: 5%;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+hr {
+    width: 70%;
+    height: 2px;
+    color: white;
+    background-color: white;
+}
+
+.box {
+    width: 700px;
+    height: 200px;
+    font-family: 'Raleway', sans-serif;
+    background-color: black;
+}
+
+textarea {
+    width: 695px;
+    height: 100px;
+    font-family: 'Raleway', sans-serif;
+    background-color: black;
+    color: white;
+    border: black;
+}
+
+#author {
+    float: right;
+    margin-right: 30px;
+    color: rgba(255, 255, 255, 0.782);
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 30px;
+}
+
+.buttons {
+    position: absolute;
+    right: 0%;
+    top: 110%;
+}
+
+#btn {
+    font-family: 'Raleway', sans-serif;
+    height: 30px;
+    background-color: maroon;
+    color: white;
+}
+
+#twitter {
+    font-family: 'Raleway', sans-serif;
+    height: 30px;
+    background-color: rgb(18, 174, 205);
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+}
+
+#listen {
+    font-family: 'Raleway', sans-serif;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    margin-left: 2%;
+    margin-top: 5%;
+}
+
+#listen:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
