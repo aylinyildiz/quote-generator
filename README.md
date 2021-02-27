@@ -1,4 +1,4 @@
-# quote-generator
+# **kodluyoruz/** quote-generator
 
 ## https://aylinyildiz.github.io/quote-generator/
 
